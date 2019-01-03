@@ -14,7 +14,6 @@
 
 # If weight is higher we want to prioritize them.
 
-# oguzhan baslangic
 def sortByWeight(jobsList):
     return sorted(jobsList, key=lambda k: k['w'], reverse=True)
 
